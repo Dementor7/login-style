@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black ;
+}
+label {
+    padding-right: 50px;
+    align-items: center;
+}
+input {
+    background: rgb(151, 151, 151);
+    width: 200px;
+    height: 28px;
+    border: none;
+    margin: 10px;
+}
+button {
+    margin-left: 270px;
+    position: relative;
+    bottom: -5px;
+    background: rgb(165, 165, 165);
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
